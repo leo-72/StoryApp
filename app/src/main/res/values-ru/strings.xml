@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Story App</string>
+    <string name="str_logo_story_app">Logo Story App</string>
+    <string name="str_welcome_to_story_app">Добро пожаловать Story App</string>
+
+    <string name="register">Зарегистрироваться</string>
+    <string name="login">Войти</string>
+    <string name="invalid_email">Неверный адрес электронной почты</string>
+    <string name="column_required">Обязательный столбец</string>
+
+    <string name="no_file_chosen">Файл не выбран</string>
+    <string name="unable_cam">Не удалось открыть камеру</string>
+    <string name="created_at">Created at %1$s</string>
+    <string name="str_camera">Камера</string>
+    <string name="str_flip_camera">Перевернутая камера</string>
+    <string name="str_image_detail_story">Подробная история изображения</string>
+    <string name="str_name">Имя</string>
+    <string name="str_description">Описание</string>
+    <string name="str_uploaded">Загружено %1$s,</string>
+    <string name="str_button_language">Язык кнопок</string>
+    <string name="str_email">Электронная почта</string>
+    <string name="str_password">Пароль</string>
+    <string name="str_sign_in">Войти</string>
+    <string name="str_no_acc">У вас еще нет учетной записи?</string>
+    <string name="str_sign_up">Зарегистрироваться</string>
+    <string name="str_emote_sad">Эмоция грусти</string>
+    <string name="str_there_is_no_story">Истории нет . . .</string>
+    <string name="str_add_story">Добавить историю</string>
+    <string name="str_image_story">История изображений</string>
+    <string name="str_floating_camera">Плавающая камера</string>
+    <string name="str_choose_image">Выберите изображение</string>
+    <string name="str_upload">Загрузить</string>
+    <string name="str_let_s_register">Давайте зарегистрируемся!</string>
+    <string name="str_fullname">Полное имя</string>
+    <string name="str_retype_password">Повторите пароль</string>
+    <string name="str_have_an_account">Есть учетная запись?</string>
+    <string name="str_failed_take_pict">Не удалось сделать снимок</string>
+    <string name="str_cant_get_perm">Не удается получить разрешение</string>
+    <string name="str_choose_app">Выберите приложение</string>
+    <string name="str_6_char_pass">Пароль не менее 6 символов</string>
+    <string name="str_sign_in_to_continue">Войдите, чтобы продолжить</string>
+    <string name="success_login">Успешный вход</string>
+    <string name="next">Далее</string>
+    <string name="failed_login">Ошибка входа</string>
+    <string name="upload_success">Загрузить успешно</string>
+    <string name="upload_failed">Загрузка не удалась</string>
+    <string name="register_success">Зарегистрировать успешно</string>
+    <string name="password_not_same">Пароли не совпадают</string>
+    <string name="str_logout">Выйти</string>
+    <string name="str_ask_to_logout">Вы уверены, что вышли из системы?</string>
+    <string name="str_yes">Да</string>
+    <string name="str_no">Нет</string>
+    <string name="empty_desc">Пустое описание</string>
+    <string name="enable_loc">Пожалуйста, разрешите ваше местоположение</string>
+    <string name="error">Произошла ошибка</string>
+    <string name="register_failed">Ошибка регистрации</string>
+    <string name="txt_hi">Привет %1$s</string>
+    <string name="str_active_loc">Активировать местоположение</string>
+    <string name="str_click_to_continue">Нажмите "Продолжить", чтобы открыть домашнюю страницу</string>
+    <string name="str_continue">Продолжить</string>
+</resources>

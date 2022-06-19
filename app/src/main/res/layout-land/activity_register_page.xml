@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/progress_bar_register"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/btnLang"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_language"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/str_button_language" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/str_logo_story_app"
+        android:src="@drawable/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_lets_register"
+        style="@style/TitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/str_let_s_register"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/txt_have_an_acc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/str_have_an_account"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/btn_sign_in"
+        app:layout_constraintTop_toBottomOf="@+id/txt_lets_register" />
+
+    <com.bangkit.storyapp.ui.customView.ButtonLogin
+        android:id="@+id/btn_sign_in"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/str_sign_in"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_sign_up"
+        app:layout_constraintEnd_toStartOf="@+id/btn_sign_up"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.bangkit.storyapp.ui.customView.EditTextName
+        android:id="@+id/inp_edit_Name"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="@string/str_name"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="text"
+        android:minHeight="45dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.bangkit.storyapp.ui.customView.EditTextEmail
+        android:id="@+id/inp_edit_Email"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="@string/str_email"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:minHeight="45dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/inp_edit_Name"
+        app:layout_constraintStart_toStartOf="@+id/inp_edit_Name"
+        app:layout_constraintTop_toBottomOf="@+id/inp_edit_Name" />
+
+    <com.bangkit.storyapp.ui.customView.EditTextPassword
+        android:id="@+id/inp_edit_Pass"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/str_password"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:minHeight="45dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        app:passwordToggleEnabled="true"
+        app:layout_constraintEnd_toEndOf="@+id/inp_edit_Email"
+        app:layout_constraintStart_toStartOf="@+id/inp_edit_Email"
+        app:layout_constraintTop_toBottomOf="@+id/inp_edit_Email" />
+
+    <com.bangkit.storyapp.ui.customView.EditTextPassword
+        android:id="@+id/inp_edit_Repass"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/str_retype_password"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:minHeight="45dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        app:passwordToggleEnabled="true"
+        app:layout_constraintEnd_toEndOf="@+id/inp_edit_Pass"
+        app:layout_constraintStart_toStartOf="@+id/inp_edit_Pass"
+        app:layout_constraintTop_toBottomOf="@+id/inp_edit_Pass" />
+
+    <com.bangkit.storyapp.ui.customView.ButtonRegister
+        android:id="@+id/btn_sign_up"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/str_sign_up"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/inp_edit_Repass"
+        app:layout_constraintStart_toStartOf="@+id/inp_edit_Repass"
+        app:layout_constraintTop_toBottomOf="@+id/inp_edit_Repass" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

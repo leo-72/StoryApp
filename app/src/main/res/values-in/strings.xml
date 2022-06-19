@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Story App</string>
+    <string name="str_logo_story_app">Logo Story App</string>
+    <string name="str_welcome_to_story_app">Selamat datang di Story App</string>
+
+    <string name="register">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="invalid_email">Email Tidak Valid</string>
+    <string name="column_required">Kolom Wajib diisi</string>
+
+    <string name="no_file_chosen">Tidak Ada File yang Dipilih</string>
+    <string name="unable_cam">Tidak dapat membuka Kamera</string>
+    <string name="created_at">Dibuat pada %1$s</string>
+    <string name="str_camera">Kamera</string>
+    <string name="str_flip_camera">Balik Kamera</string>
+    <string name="str_image_detail_story">Kisah Detail Gambar</string>
+    <string name="str_name">Nama</string>
+    <string name="str_description">Deskripsi</string>
+    <string name="str_uploaded">Diunggah pada %1$s,</string>
+    <string name="str_button_language">Tombol Bahasa</string>
+    <string name="str_email">Email</string>
+    <string name="str_password">Kata sandi</string>
+    <string name="str_sign_in">Masuk</string>
+    <string name="str_no_acc">Belum punya akun?</string>
+    <string name="str_sign_up">Daftar</string>
+    <string name="str_emote_sad">Emote Sedih</string>
+    <string name="str_there_is_no_story">Tidak ada Cerita . . .</string>
+    <string name="str_add_story">Tambahkan Cerita</string>
+    <string name="str_image_story">Kisah Gambar</string>
+    <string name="str_floating_camera">Kamera Mengambang</string>
+    <string name="str_choose_image">Pilih Gambar</string>
+    <string name="str_upload">Unggah</string>
+    <string name="str_let_s_register">Ayo Daftar!</string>
+    <string name="str_fullname">Nama lengkap</string>
+    <string name="str_retype_password">Ketik Ulang Kata Sandi</string>
+    <string name="str_have_an_account">Punya Akun?</string>
+    <string name="str_failed_take_pict">Gagal Mengambil Gambar</string>
+    <string name="str_cant_get_perm">Tidak bisa mendapatkan Izin</string>
+    <string name="str_choose_app">Pilih Aplikasi</string>
+    <string name="str_6_char_pass">Password minimal 6 Karakter</string>
+    <string name="str_sign_in_to_continue">Masuk untuk Melanjutkan</string>
+    <string name="success_login">Login Berhasil</string>
+    <string name="next">Berikutnya</string>
+    <string name="failed_login">Login Gagal</string>
+    <string name="upload_success">Berhasil Mengunggah</string>
+    <string name="upload_failed">Gagal Mengunggah</string>
+    <string name="register_success">Berhasil Daftar</string>
+    <string name="password_not_same">Sandi tidak sama</string>
+    <string name="str_logout">Keluar</string>
+    <string name="str_ask_to_logout">Apakah Anda yakin untuk Keluar?</string>
+    <string name="str_yes">Ya</string>
+    <string name="str_no">Tidak</string>
+    <string name="empty_desc">Deskripsi Kosong</string>
+    <string name="enable_loc">Harap Izinkan Lokasi Anda</string>
+    <string name="error">Ada Kesalahan</string>
+    <string name="register_failed">Pendaftaran Gagal</string>
+    <string name="txt_hi">Hai %1$s</string>
+    <string name="str_active_loc">Aktifkan Lokasi</string>
+    <string name="str_click_to_continue">Klik Lanjutkan untuk Membuka Halaman Beranda</string>
+    <string name="str_continue">Lanjutkan</string>
+</resources>

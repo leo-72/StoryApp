@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.activity.SplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/logoStoryApp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/str_logo_story_app"
+        android:transitionName="t_logo"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/txtStoryApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aliey"
+        android:text="@string/app_name"
+        android:transitionName="t_h1"
+        style="@style/TitleText"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/logoStoryApp"
+        app:layout_constraintStart_toStartOf="@+id/logoStoryApp"
+        app:layout_constraintTop_toBottomOf="@+id/logoStoryApp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
